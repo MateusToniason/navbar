@@ -1,0 +1,78 @@
+/*corpo da pagina*/
+body{background-color:#585454;}
+/* 
+* Cabeçalho
+*/
+.header{
+    padding: 50px;
+    background-color: black;
+    color: crimson;
+    text-align: center;
+}
+/*
+* Estilizando e modificando o navbar
+*/
+.navbar ul{
+    list-style: none;
+    background-color:#8d807e;
+    display: flex;
+    color: #dc143c;
+    font-size: 15px;
+    padding: 5px;
+}
+/*
+* Dando preenchimento ao Menu
+*/
+.menu{
+    
+    padding: 10px;
+    transition-duration: 1s;
+}
+/*
+* Estilizando o Menu com pointer e background
+*/
+.menu:hover{
+    background-color: #e7bcaf;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/*
+* Estilizando menu dropdown
+*/
+a{
+   text-decoration: none;
+}
+.movemenu{
+    width: 100px
+}
+.dropdown-content{
+    /*display: ;*/
+    position: absolute;
+}
+.dropdown-content a{
+    transition-duration: 1s;
+    display: block;
+    padding: 11px 17px;
+    text-align: left;
+}
+.dpdbtn{
+    box-shadow: 0px 8px 16px 0px rgba(105, 50, 50, 0.2);
+    border: 1px solid crimson;
+    border-radius: 10px;
+}
+.dpdbtn:hover{
+    background-color: #bb998f;
+}
+.dropbtn:hover{
+    display: block;
+}
+/*
+* Rodapé/assinatura digital/ instagram
+*/
+#rodapé,a{
+    color: crimson;
+    text-align: center;
+    background-color: #8d807e;
+    height: auto;
+}
+.imageminsta {width: 20px;}
